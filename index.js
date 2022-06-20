@@ -5,7 +5,7 @@ let discount = 0
 
 if (clientSpentForAllTime >= 100 && clientSpentForAllTime <= 300) {
     discount = 10,
-    alert(`You have discount ${discount}%!`)
+    alert(`You have discount ${discount}%!`)  
 }
 
 else if (clientSpentForAllTime > 300 && clientSpentForAllTime <= 500) {
@@ -29,6 +29,7 @@ clientSpentToday = clientSpentToday - (clientSpentToday * (discount / 100))
 
 alert(`Thank you, ${clientName}! Now you pay ${clientSpentToday}$. You spent ${clientSpentForAllTime}$ in our restaurant for the whole period of time.`)
 
+// Send it to your BOSS
 
 
 
