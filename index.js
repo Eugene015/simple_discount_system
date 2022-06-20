@@ -29,7 +29,7 @@ clientSpentToday = clientSpentToday - (clientSpentToday * (discount / 100))
 
 alert(`Thank you, ${clientName}! Now you pay ${clientSpentToday}$. You spent ${clientSpentForAllTime}$ in our restaurant for the whole period of time.`)
 
-// Send it to your BOSS
+// Send it to your BOSS!!!
 
 
 
